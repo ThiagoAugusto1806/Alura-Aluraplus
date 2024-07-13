@@ -171,6 +171,15 @@ footer{
         width: auto;
         padding: 54px;
     }
+    .botao__azul{
+        width: 130%;
+    }
+    .botao__preto{
+        width: 130%;
+    }
+    .cabecalho__alerta{
+        text-align: center;
+    }
     .conteudo1{
         flex-direction: column;
         margin: 5%;
@@ -183,6 +192,9 @@ footer{
         align-items: center;
     }
     .conteudo__titulo{
+        text-align: center;
+    }
+    .conteudo__paragrafo{
         text-align: center;
     }
     .conteudo__imagem{
