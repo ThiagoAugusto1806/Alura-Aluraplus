@@ -17,9 +17,10 @@ body, a{
     font-family: var(--fonte);
     background-color: var(--cor-fundo);
 }
-header{
+.inicio{
     background: url(../img/Background.png);
-    background-size:cover
+    background-repeat: no-repeat;
+    background-size:contain;
 }
 .cabecalho{
     display: flex;
@@ -66,14 +67,7 @@ header{
     font-size: 0.75rem;
     color: var(--cinza-terciario);
 }
-.conteudo1{
-    margin: 15%;
-    display: flex;
-    flex-direction: row;
-    gap: 15%;
-    align-items: center;
-}
-.conteudo2{
+.conteudo{
     margin: 15%;
     display: flex;
     flex-direction: row;
@@ -145,7 +139,7 @@ footer{
 .links{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 5px;
 }
 .rodape__link{
     color: var(--branco-principal);
@@ -164,7 +158,7 @@ footer{
     text-align: center;
 }
 @media screen and (max-width:799px) {
-    header{
+    .inicio{
         background: var(--cor-fundo);
     }
     .cabecalho{
@@ -180,13 +174,12 @@ footer{
     .cabecalho__alerta{
         text-align: center;
     }
-    .conteudo1{
+    .conteudo{
         flex-direction: column;
         margin: 5%;
     }
-    .conteudo2{
+    .conteudo__reverso{
         flex-direction: column-reverse;
-        margin: 5%;
     }
     .conteudo__divisao{
         align-items: center;
